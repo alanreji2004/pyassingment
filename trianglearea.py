@@ -26,6 +26,6 @@ else:
     s = (a + b + c) / 2
     if a + b > c and a + c > b and b + c > a:
         area = math.sqrt(s * (s - a) * (s - b) * (s - c))
-        print(f"The area of the scalene triangle is: {area:.2f}")
+        print("The area of the scalene triangle is: ",area)
     else:
         print("The entered sides do not form a valid triangle.")
