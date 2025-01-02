@@ -2,6 +2,7 @@ cost_price = int(input("Enter the cost prize : "))
 colour = input("Enter the colour(red,green,yellow,white) : ")
 
 if colour == "red":
+
     discount = (cost_price/100) * 10
     selling_price = cost_price - discount
     print("Selling Price : ",selling_price)
