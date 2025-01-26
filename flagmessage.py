@@ -8,3 +8,4 @@ elif flag == 3:
     print("Cold")
 else:
     print("Out of range")
+
