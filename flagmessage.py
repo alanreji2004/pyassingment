@@ -9,3 +9,4 @@ elif flag == 3:
 else:
     print("Out of range")
 
+
